@@ -121,7 +121,6 @@ transition: 0.6s;
 
 /* part 3 */
 .img_container{
-    width: 100%;
     background-image: url(/img/photos/pt-3.jpg);
     background-repeat: no-repeat;
     height: 400px;
@@ -148,7 +147,9 @@ transition: 0.6s;
 }
 .img_container h2{
     font-family:Kaushan Script ;
-    transform: translateX(40%);
+    transform: translateX(100%);
+    width: 40%;
+    display: flex;
 }
 .search_category ul{
     display: flex;
