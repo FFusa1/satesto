@@ -1,0 +1,20 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left:60px ;
+    padding-right: 60px;
+    background-color: pink;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.top_nav img{
+    width: 200px;
+}
