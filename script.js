@@ -11,12 +11,6 @@ function addAnimation() {
         const scrollerInner = scroller.querySelector('.scroller__inner');
         const scrollerContent = Array.from(scrollerInner.children);
 
-        scrollerContent.forEach(item => {
-            const duplicatedItem = item.cloneNode(true);
-            duplicatedItem.setAttribute("aria-hidden", true);
-            scrollerInner.appendChild(duplicatedItem);
-        });
-
         const totalWidth = scrollerContent.length * (scrollerContent[0].offsetWidth + 32); 
         scrollerInner.style.width = `${totalWidth * 2}px`; 
     });

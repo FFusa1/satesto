@@ -242,3 +242,64 @@ transition: 0.6s;
         transform: translate(calc(-50% - 0.5rem));
     }
 }
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: pink;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content{
+    display: none;
+   background-color: #ff4967;
+   position: absolute;
+   min-width: 100px;
+   box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+
+
+.dropdown:hover button{
+    background-color: #ff8fa2;
+}
+
+.dropdown a:hover{
+    background-color: #f58598;
+}
+
+.productsale{
+    display: flex;
+    margin: 0px 100px 0px 100px;
+    gap: 200px;
+    background-color: #f5859823;
+    height: 600px;
+    width:900px;
+    transform: translateX(50%);
+}
+
+.buy_function{
+    display: grid;
+    height: 300px;
+    padding-top:60px;
+}
+
+.price{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ff4967
+}
